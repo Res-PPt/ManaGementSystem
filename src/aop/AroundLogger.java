@@ -9,7 +9,7 @@ import org.aspectj.lang.annotation.Aspect;
   
 @Aspect  
 public class AroundLogger {
-	private static final Logger log = Logger.getLogger(AroundLogger.class);
+	private static final Logger log = Logger.getLogger(AroundLogger.class); 
 	@Around("execution(* service..*.*(..))")
 	public Object aroundLogger(ProceedingJoinPoint jp) throws Throwable{
 		log.info("璋冪敤"+jp.getTarget()+"鐨�"
