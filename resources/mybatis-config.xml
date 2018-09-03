@@ -10,4 +10,5 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
  		<package name="entity"/>
  	</typeAliases>
  	
+ 	
 </configuration>
